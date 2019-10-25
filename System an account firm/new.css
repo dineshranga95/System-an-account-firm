@@ -1,0 +1,179 @@
+body{
+	margin-top: 0;
+}
+
+#wrapper{
+	margin:auto;
+	width: 1020px;
+	
+}
+#n1{
+	background: maroon;
+	height: 55px;
+	}
+#links1{
+float: left;
+}
+#links1 ul{
+list-style-type: none;
+
+}
+#links1 ul li{
+display: inline-block;	
+padding:0 10px;
+border-right:1px solid white;
+}
+#links1 ul li:first-child{
+	padding-left: 0;
+}
+
+
+#links1 a{
+	text-decoration: none;
+	color: white;
+}
+#search-bar{
+	float: right;
+	margin:15px;
+	
+	padding:  3px;
+	background: white;
+	border-radius: 10px ;
+}
+#search-bar input{
+border: 0
+
+}
+#search-bar button{
+	margin-right: 10px;
+border: 0;
+width:18px;
+height:18px;
+background:url(img/icons/search.png);
+}
+#logo{
+	padding-top: 10px;
+}
+#text h1::first-letter{
+font-size: 45px;
+}
+#text h1{
+	font-size: 35px;
+	margin-bottom: 0;
+}
+#text p{
+	font-size: 18px;
+	margin-top: 10px;
+}
+#icon {
+	float: right;
+	margin-top: 20px;
+}
+#icon ul{
+list-style-type: none;
+}
+#icon ul li{
+display:inline;
+margin: 3px;
+}
+#icon ul li:hover{
+	background: orange;
+}
+.nav2{
+	background: #333;
+	border-radius: 10px;
+
+}
+.nav2 ul{
+	list-style-type: none;
+	margin-top: 30px;
+	padding-left: 100px;
+	padding-top: 5px;
+}
+.nav2 ul li{
+	display: inline-block;
+	padding: 20px 40px;
+}
+.nav2 ul li a{
+	text-decoration: none;
+	color: orange;
+}
+.con1{
+	padding-right: 20px;
+	}
+
+#conn{
+float: right;
+width: 60%;
+
+
+}
+#conn  h1{
+	font-size: 70px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+#conn p{
+	font-size: 18px;
+}
+.sec{
+	height: 550px;
+	background: #999;
+	padding: 0 15px;
+	font-size: 18px;
+}
+.sec a{
+	text-decoration: none;
+	font-size: 18px;
+	color: red;
+	float: right;
+}
+.sec h1{
+	font-weight: normal;
+	padding: 0 10px;
+	font-size: 30px;
+}
+#little{
+	float: left;
+	width: 32%;
+	padding-right: 20px;
+	
+}
+#little img{
+	margin-bottom: 15px;
+	width:100%;
+}
+
+#service{
+	float: left;
+	width: 35%;
+	}
+.img{
+	float: left;
+}
+.img img{
+	padding-top: 25px;
+	padding-left: 15px;
+
+}
+.name {
+	float:right;
+	width:75%;
+	padding-left: 7px;
+}
+.name h3{
+	margin-bottom: 0px;
+}
+.name p{
+	margin-top: 7px;
+	width: 75%;
+}
+
+#client{
+	float: left;
+	width: 30%;
+	}
+.ton{
+padding-top: 10px;
+}	
+
